@@ -2,12 +2,12 @@ const translations = {
   en: {
     pageTitle: 'OwnerPathFuture | Build the Business Around Your Skills',
     pageDescription: 'OwnerPathFuture helps skilled service professionals build the business systems they need to go independent.',
-    headerPlan: 'Free launch plan',
+    headerPlan: 'Start Your Business',
     heroEyebrow: 'For skilled service professionals ready to go independent',
     heroTitle: 'Turn Your Skills Into <span>Your Own Business</span>',
     heroLead: 'You already know how to do the work.',
     heroText: 'We help you build the customer acquisition, business setup, booking and operating systems around that skill.',
-    launchPlanButton: 'Get my free launch plan',
+    launchPlanButton: 'Start Your Business',
     telegramButton: 'Join our Telegram',
     heroNote: 'Practical support for appliance repair and other service trades',
     pathLabel: 'Your path forward',
@@ -71,7 +71,7 @@ const translations = {
     techQuestions: 'Questions from other technicians',
     updates: 'updates',
     launchEyebrow: 'Take the first step',
-    launchTitle: 'Get Your Free Launch Plan',
+    launchTitle: 'Start Your Business',
     launchText: "Tell us where you are today. We'll use your answers to understand what business foundations you need to work on first.",
     launchPoint1: 'Built around your current situation',
     launchPoint2: 'Focused on practical next steps',
@@ -91,18 +91,18 @@ const translations = {
     situationStarted: 'Recently started',
     situationExploring: 'Still exploring',
     formNote: 'Your submission will be emailed to OwnerPathFuture.',
-    formSuccess: 'Thanks — your launch plan request was submitted successfully.',
+    formSuccess: 'Thanks — your request was submitted successfully.',
     footerTagline: "You know the work. Let's build the business around it."
   },
   ru: {
     pageTitle: 'OwnerPathFuture | Создайте бизнес вокруг своих навыков',
     pageDescription: 'OwnerPathFuture помогает специалистам сервисных профессий выстроить бизнес-системы и начать работать на себя.',
-    headerPlan: 'Бесплатный план запуска',
+    headerPlan: 'Начать свой бизнес',
     heroEyebrow: 'Для специалистов сервисных профессий, готовых работать на себя',
     heroTitle: 'Превратите свои навыки в <span>собственный бизнес</span>',
     heroLead: 'Вы уже умеете выполнять работу.',
     heroText: 'Мы помогаем выстроить вокруг ваших навыков привлечение клиентов, оформление бизнеса, запись и ежедневные рабочие процессы.',
-    launchPlanButton: 'Получить бесплатный план запуска',
+    launchPlanButton: 'Начать свой бизнес',
     telegramButton: 'Присоединиться в Telegram',
     heroNote: 'Практическая поддержка для мастеров по ремонту техники и других сервисных профессий',
     pathLabel: 'Ваш путь вперед',
@@ -166,7 +166,7 @@ const translations = {
     techQuestions: 'Вопросы других мастеров',
     updates: 'новости',
     launchEyebrow: 'Сделайте первый шаг',
-    launchTitle: 'Получите бесплатный план запуска',
+    launchTitle: 'Начните свой бизнес',
     launchText: 'Расскажите, где вы сейчас. По вашим ответам мы поймем, какие основы бизнеса вам стоит выстроить в первую очередь.',
     launchPoint1: 'Учитывает вашу текущую ситуацию',
     launchPoint2: 'Фокус на практических следующих шагах',
@@ -186,7 +186,7 @@ const translations = {
     situationStarted: 'Недавно начал работать на себя',
     situationExploring: 'Пока изучаю варианты',
     formNote: 'Ваша заявка будет отправлена OwnerPathFuture по email.',
-    formSuccess: 'Спасибо — ваша заявка на план запуска успешно отправлена.',
+    formSuccess: 'Спасибо — ваша заявка успешно отправлена.',
     footerTagline: 'Вы знаете работу. Давайте построим вокруг нее бизнес.'
   }
 };
@@ -224,7 +224,7 @@ function setLanguage(language) {
 
   if (languageSelect) languageSelect.value = lang;
   if (formLanguage) formLanguage.value = lang === 'ru' ? 'Russian' : 'English';
-  if (formSubject) formSubject.value = lang === 'ru' ? 'Новая заявка OwnerPathFuture — план запуска' : 'New OwnerPathFuture Launch Plan Request';
+  if (formSubject) formSubject.value = lang === 'ru' ? 'Новая заявка OwnerPathFuture — старт бизнеса' : 'New OwnerPathFuture Business Start Request';
   if (formNext) formNext.value = `https://ownerpathfuture-design.github.io/ownerpathfuture/?submitted=1&lang=${lang}#launch-plan`;
 
   try {
