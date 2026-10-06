@@ -11,114 +11,127 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="OwnerPathFuture home">
-        <span class="brand-mark" aria-hidden="true">OP</span>
-        <span>OwnerPathFuture</span>
+        <img class="brand-logo" src="assets/ownerpathfuture-logo.png" alt="OwnerPathFuture">
       </a>
-      <a class="header-link" href="#launch-plan">Free launch plan <span aria-hidden="true">→</span></a>
+      <div class="header-actions">
+        <label class="language-picker" for="language-select">
+          <span class="sr-only">Language</span>
+          <select id="language-select" aria-label="Language">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+          </select>
+        </label>
+        <a class="header-link" href="#launch-plan"><span data-i18n="headerPlan">Free launch plan</span> <span aria-hidden="true">→</span></a>
+      </div>
     </header>
 
     <main id="top">
       <section class="hero section">
         <div class="hero-copy">
-          <p class="eyebrow">For skilled service professionals ready to go independent</p>
-          <h1>Turn Your Skills Into <span>Your Own Business</span></h1>
-          <p class="hero-lead"><strong>You already know how to do the work.</strong></p>
-          <p>We help you build the customer acquisition, business setup, booking and operating systems around that skill.</p>
+          <p class="eyebrow" data-i18n="heroEyebrow">For skilled service professionals ready to go independent</p>
+          <h1 data-i18n-html="heroTitle">Turn Your Skills Into <span>Your Own Business</span></h1>
+          <p class="hero-lead"><strong data-i18n="heroLead">You already know how to do the work.</strong></p>
+          <p data-i18n="heroText">We help you build the customer acquisition, business setup, booking and operating systems around that skill.</p>
           <div class="button-row">
-            <a class="button button-primary" href="#launch-plan">Get my free launch plan</a>
-            <a class="button button-secondary" href="https://t.me/YOURGROUP" target="_blank" rel="noopener noreferrer">Join our Telegram</a>
+            <a class="button button-primary" href="#launch-plan" data-i18n="launchPlanButton">Get my free launch plan</a>
+            <a class="button button-secondary" href="https://t.me/+rhVYj1UK8X9lYWIx" target="_blank" rel="noopener noreferrer" data-i18n="telegramButton">Join our Telegram</a>
           </div>
-          <p class="hero-note"><span aria-hidden="true">✓</span> Practical support for appliance repair and other service trades</p>
+          <p class="hero-note"><span aria-hidden="true">✓</span> <span data-i18n="heroNote">Practical support for appliance repair and other service trades</span></p>
         </div>
         <div class="hero-panel" aria-label="A practical path to business ownership">
-          <p class="panel-label">Your path forward</p>
-          <div class="path-item"><span>01</span><div><strong>Start with your skill</strong><small>You bring the trade experience.</small></div></div>
+          <p class="panel-label" data-i18n="pathLabel">Your path forward</p>
+          <div class="path-item"><span>01</span><div><strong data-i18n="path1Title">Start with your skill</strong><small data-i18n="path1Text">You bring the trade experience.</small></div></div>
           <div class="path-line"></div>
-          <div class="path-item"><span>02</span><div><strong>Build the systems</strong><small>We create the business foundation.</small></div></div>
+          <div class="path-item"><span>02</span><div><strong data-i18n="path2Title">Build the systems</strong><small data-i18n="path2Text">We create the business foundation.</small></div></div>
           <div class="path-line"></div>
-          <div class="path-item active"><span>03</span><div><strong>Move toward ownership</strong><small>Launch with a clear, practical plan.</small></div></div>
+          <div class="path-item active"><span>03</span><div><strong data-i18n="path3Title">Move toward ownership</strong><small data-i18n="path3Text">Launch with a clear, practical plan.</small></div></div>
         </div>
       </section>
 
       <section class="problem section section-wide">
         <div class="section-heading">
-          <p class="eyebrow">The gap we help close</p>
-          <h2>You Already Have the Hardest Part: <span>The Skill</span></h2>
+          <p class="eyebrow" data-i18n="problemEyebrow">The gap we help close</p>
+          <h2 data-i18n-html="problemTitle">You Already Have the Hardest Part: <span>The Skill</span></h2>
         </div>
         <div class="problem-content">
           <div class="problem-copy">
-            <p>Experienced technicians already know how to diagnose problems, serve customers and complete the actual work. But being great at the trade is different from building the business around it.</p>
-            <p>Knowing what to set up—and in what order—can make the path to independence feel more complicated than it needs to be.</p>
-            <strong>That's where OwnerPathFuture helps.</strong>
+            <p data-i18n="problemText1">Experienced technicians already know how to diagnose problems, serve customers and complete the actual work. But being great at the trade is different from building the business around it.</p>
+            <p data-i18n="problemText2">Knowing what to set up—and in what order—can make the path to independence feel more complicated than it needs to be.</p>
+            <strong data-i18n="problemStrong">That's where OwnerPathFuture helps.</strong>
           </div>
           <ul class="topic-grid" aria-label="Business challenges">
-            <li>Finding customers</li><li>Google</li><li>Yelp</li><li>Advertising</li><li>Website</li><li>Reviews</li><li>Scheduling</li><li>Payments</li><li>Business software</li><li>Business setup</li>
+            <li data-i18n="topicCustomers">Finding customers</li><li>Google</li><li>Yelp</li><li data-i18n="topicAds">Advertising</li><li data-i18n="topicWebsite">Website</li><li data-i18n="topicReviews">Reviews</li><li data-i18n="topicScheduling">Scheduling</li><li data-i18n="topicPayments">Payments</li><li data-i18n="topicSoftware">Business software</li><li data-i18n="topicSetup">Business setup</li>
           </ul>
         </div>
       </section>
 
       <section class="section support" id="support">
         <div class="section-heading centered">
-          <p class="eyebrow">Practical business support</p>
-          <h2>What We Help You Build</h2>
-          <p>The essential systems around your skills—without the noise.</p>
+          <p class="eyebrow" data-i18n="supportEyebrow">Practical business support</p>
+          <h2 data-i18n="supportTitle">What We Help You Build</h2>
+          <p data-i18n="supportText">The essential systems around your skills—without the noise.</p>
         </div>
         <div class="card-grid">
-          <article class="service-card"><span class="card-number">01</span><h3>Get Customers</h3><p>Build a steady, professional presence where local customers look.</p><ul><li>Google</li><li>Website</li><li>Yelp</li><li>Advertising</li><li>Reviews</li><li>Lead tracking</li></ul></article>
-          <article class="service-card"><span class="card-number">02</span><h3>Run the Business</h3><p>Put simple tools in place to move every job from call to payment.</p><ul><li>Phone</li><li>Scheduling</li><li>Housecall Pro / Jobber</li><li>Estimates</li><li>Invoices</li><li>Payments</li></ul></article>
-          <article class="service-card"><span class="card-number">03</span><h3>Get Ready</h3><p>Know what to do before launch and what to improve as you grow.</p><ul><li>Business setup guidance</li><li>Launch checklist</li><li>Customer workflows</li><li>Software setup</li><li>Ongoing support</li></ul></article>
+          <article class="service-card"><span class="card-number">01</span><h3 data-i18n="card1Title">Get Customers</h3><p data-i18n="card1Text">Build a steady, professional presence where local customers look.</p><ul><li>Google</li><li data-i18n="topicWebsite">Website</li><li>Yelp</li><li data-i18n="topicAds">Advertising</li><li data-i18n="topicReviews">Reviews</li><li data-i18n="leadTracking">Lead tracking</li></ul></article>
+          <article class="service-card"><span class="card-number">02</span><h3 data-i18n="card2Title">Run the Business</h3><p data-i18n="card2Text">Put simple tools in place to move every job from call to payment.</p><ul><li data-i18n="phone">Phone</li><li data-i18n="topicScheduling">Scheduling</li><li>Housecall Pro / Jobber</li><li data-i18n="estimates">Estimates</li><li data-i18n="invoices">Invoices</li><li data-i18n="topicPayments">Payments</li></ul></article>
+          <article class="service-card"><span class="card-number">03</span><h3 data-i18n="card3Title">Get Ready</h3><p data-i18n="card3Text">Know what to do before launch and what to improve as you grow.</p><ul><li data-i18n="setupGuidance">Business setup guidance</li><li data-i18n="launchChecklist">Launch checklist</li><li data-i18n="customerWorkflows">Customer workflows</li><li data-i18n="softwareSetup">Software setup</li><li data-i18n="ongoingSupport">Ongoing support</li></ul></article>
         </div>
       </section>
 
       <section class="steps section section-wide">
-        <div class="section-heading centered"><p class="eyebrow">A clear way forward</p><h2>How It Works</h2></div>
+        <div class="section-heading centered"><p class="eyebrow" data-i18n="stepsEyebrow">A clear way forward</p><h2 data-i18n="stepsTitle">How It Works</h2></div>
         <div class="steps-grid">
-          <article><span>1</span><h3>Tell Us Where You Are</h3><p>We learn about your experience, location and goals.</p></article>
-          <article><span>2</span><h3>Build Your Plan</h3><p>We identify what needs to be created first.</p></article>
-          <article><span>3</span><h3>Build It Together</h3><p>We help you set up the systems and support you while you start.</p></article>
+          <article><span>1</span><h3 data-i18n="step1Title">Tell Us Where You Are</h3><p data-i18n="step1Text">We learn about your experience, location and goals.</p></article>
+          <article><span>2</span><h3 data-i18n="step2Title">Build Your Plan</h3><p data-i18n="step2Text">We identify what needs to be created first.</p></article>
+          <article><span>3</span><h3 data-i18n="step3Title">Build It Together</h3><p data-i18n="step3Text">We help you set up the systems and support you while you start.</p></article>
         </div>
       </section>
 
       <section class="course section">
         <div class="course-accent" aria-hidden="true">“</div>
-        <div><p class="eyebrow">Real help, not more homework</p><h2>Not Another Business Course</h2></div>
-        <div class="course-copy"><p>You can find business information everywhere online. The hard part is knowing what actually matters, what to do first and how everything connects.</p><p>We don't just give you videos or a PDF.</p><strong>We help you actually build the systems.</strong></div>
+        <div><p class="eyebrow" data-i18n="courseEyebrow">Real help, not more homework</p><h2 data-i18n="courseTitle">Not Another Business Course</h2></div>
+        <div class="course-copy"><p data-i18n="courseText1">You can find business information everywhere online. The hard part is knowing what actually matters, what to do first and how everything connects.</p><p data-i18n="courseText2">We don't just give you videos or a PDF.</p><strong data-i18n="courseStrong">We help you actually build the systems.</strong></div>
       </section>
 
       <section class="community section section-wide" id="community">
         <div class="community-copy">
-          <p class="eyebrow light">Free Telegram community</p>
-          <h2>Thinking About Going Independent? Join the Community.</h2>
-          <p>Join our free Telegram group for practical information about building your own service business.</p>
-          <a class="button button-orange" href="https://t.me/YOURGROUP" target="_blank" rel="noopener noreferrer">Join the free Telegram group <span aria-hidden="true">→</span></a>
+          <p class="eyebrow light" data-i18n="communityEyebrow">Free Telegram community</p>
+          <h2 data-i18n="communityTitle">Thinking About Going Independent? Join the Community.</h2>
+          <p data-i18n="communityText">Join our free Telegram group for practical information about building your own service business.</p>
+          <a class="button button-orange" href="https://t.me/+rhVYj1UK8X9lYWIx" target="_blank" rel="noopener noreferrer"><span data-i18n="communityButton">Join the free Telegram group</span> <span aria-hidden="true">→</span></a>
         </div>
-        <div class="community-topics"><p>Topics we cover</p><ul><li>Getting customers</li><li>Google and advertising</li><li>Business setup</li><li>Tools and software</li><li>Questions from other technicians</li><li>OwnerPathFuture updates</li></ul></div>
+        <div class="community-topics"><p data-i18n="communityTopics">Topics we cover</p><ul><li data-i18n="topicCustomers">Getting customers</li><li data-i18n="googleAds">Google and advertising</li><li data-i18n="topicSetup">Business setup</li><li data-i18n="toolsSoftware">Tools and software</li><li data-i18n="techQuestions">Questions from other technicians</li><li>OwnerPathFuture <span data-i18n="updates">updates</span></li></ul></div>
       </section>
 
       <section class="launch section" id="launch-plan">
         <div class="launch-copy">
-          <p class="eyebrow">Take the first step</p>
-          <h2>Get Your Free Launch Plan</h2>
-          <p>Tell us where you are today. We'll use your answers to understand what business foundations you need to work on first.</p>
-          <div class="launch-points"><p><span>✓</span> Built around your current situation</p><p><span>✓</span> Focused on practical next steps</p><p><span>✓</span> No income promises or empty hype</p></div>
+          <p class="eyebrow" data-i18n="launchEyebrow">Take the first step</p>
+          <h2 data-i18n="launchTitle">Get Your Free Launch Plan</h2>
+          <p data-i18n="launchText">Tell us where you are today. We'll use your answers to understand what business foundations you need to work on first.</p>
+          <div class="launch-points"><p><span>✓</span> <span data-i18n="launchPoint1">Built around your current situation</span></p><p><span>✓</span> <span data-i18n="launchPoint2">Focused on practical next steps</span></p><p><span>✓</span> <span data-i18n="launchPoint3">No income promises or empty hype</span></p></div>
         </div>
         <form class="launch-form" id="launch-form" action="https://formsubmit.co/ownerpathfuture@gmail.com" method="POST">
-          <input type="hidden" name="_subject" value="New OwnerPathFuture Launch Plan Request">
+          <input id="form-subject" type="hidden" name="_subject" value="New OwnerPathFuture Launch Plan Request">
           <input type="hidden" name="_template" value="table">
           <input type="hidden" name="_next" value="https://ownerpathfuture-design.github.io/ownerpathfuture/?submitted=1#launch-plan">
           <input type="hidden" name="_url" value="https://ownerpathfuture-design.github.io/ownerpathfuture/">
           <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none">
-          <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name"></div>
-          <div class="field"><label for="contact">Phone or Email</label><input id="contact" name="contact" type="text" required placeholder="How can we reach you?"></div>
-          <div class="form-row"><div class="field"><label for="location">City / State</label><input id="location" name="location" type="text" autocomplete="address-level2" required placeholder="City, State"></div><div class="field"><label for="experience">Years of Experience</label><input id="experience" name="experience" type="number" min="0" max="70" required placeholder="e.g. 5"></div></div>
-          <div class="field"><label for="situation">Current Situation</label><select id="situation" name="situation" required><option value="" selected disabled>Select one</option><option>Working for a company</option><option>Doing side jobs</option><option>Recently started</option><option>Still exploring</option></select></div>
-          <button class="button button-primary form-button" type="submit">Get my free launch plan</button>
-          <p class="form-note">Your submission will be emailed to OwnerPathFuture.</p>
-          <p class="form-message" id="form-message" role="status" hidden>Thanks — your launch plan request was submitted successfully.</p>
+          <input id="form-language" type="hidden" name="Language" value="English">
+          <div class="field"><label for="name" data-i18n="nameLabel">Name</label><input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name" data-i18n-placeholder="namePlaceholder"></div>
+          <div class="field"><label for="contact" data-i18n="contactLabel">Phone or Email</label><input id="contact" name="contact" type="text" required placeholder="How can we reach you?" data-i18n-placeholder="contactPlaceholder"></div>
+          <div class="form-row"><div class="field"><label for="location" data-i18n="locationLabel">City / State</label><input id="location" name="location" type="text" autocomplete="address-level2" required placeholder="City, State" data-i18n-placeholder="locationPlaceholder"></div><div class="field"><label for="experience" data-i18n="experienceLabel">Years of Experience</label><input id="experience" name="experience" type="number" min="0" max="70" required placeholder="e.g. 5" data-i18n-placeholder="experiencePlaceholder"></div></div>
+          <div class="field"><label for="situation" data-i18n="situationLabel">Current Situation</label><select id="situation" name="situation" required><option value="" selected disabled data-i18n="selectOne">Select one</option><option value="Working for a company" data-i18n="situationCompany">Working for a company</option><option value="Doing side jobs" data-i18n="situationSideJobs">Doing side jobs</option><option value="Recently started" data-i18n="situationStarted">Recently started</option><option value="Still exploring" data-i18n="situationExploring">Still exploring</option></select></div>
+          <button class="button button-primary form-button" type="submit" data-i18n="launchPlanButton">Get my free launch plan</button>
+          <p class="form-note" data-i18n="formNote">Your submission will be emailed to OwnerPathFuture.</p>
+          <p class="form-message" id="form-message" role="status" hidden data-i18n="formSuccess">Thanks — your launch plan request was submitted successfully.</p>
         </form>
       </section>
     </main>
 
-    <footer><a class="brand footer-brand" href="#top"><span class="brand-mark">OP</span><span>OwnerPathFuture</span></a><p>You know the work. Let's build the business around it.</p><p>© <span id="year"></span> OwnerPathFuture</p></footer>
+    <footer>
+      <a class="brand footer-brand" href="#top"><img class="footer-logo" src="assets/ownerpathfuture-logo.png" alt="OwnerPathFuture"></a>
+      <p data-i18n="footerTagline">You know the work. Let's build the business around it.</p>
+      <p>© <span id="year"></span> OwnerPathFuture</p>
+    </footer>
   </body>
 </html>
