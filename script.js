@@ -56,6 +56,56 @@ const translations = {
     step2Text: 'We identify what needs to be created first.',
     step3Title: 'Build It Together',
     step3Text: 'We help you set up the systems and support you while you start.',
+    promoBarStrong: 'October Launch Offer',
+    promoBarText: '— BUSINESS $1,290 · PRO $1,990 · Ends Oct 31',
+    promoBarCta: 'See plans',
+    plansEyebrow: 'Choose the level of support you need',
+    plansTitle: 'Start Your Business With Us',
+    plansIntro: 'Two clear launch options. Both are built around your current situation and what you already have.',
+    businessPlanTitle: 'Business Setup & Launch',
+    businessSave: 'Save $400',
+    businessFit: 'Best if you need the business foundation set up and ready to operate.',
+    octoberLaunchPrice: 'October launch price',
+    regularPrice: 'Regular price',
+    businessFeature1: 'Business registration, licensing & insurance guidance',
+    businessFeature2: 'Professional website + Google Business Profile + Yelp',
+    businessFeature3: 'Business phone, email and Housecall Pro / CRM setup',
+    businessFeature4: 'Scheduling, estimates, invoices and customer workflows',
+    businessFeature5: 'Practical training and 30 days of launch support',
+    businessCta: 'Start with Business',
+    proTag: 'Best for customer acquisition',
+    proPlanTitle: 'Business Launch & Customer Acquisition',
+    proSave: 'Save $1,000',
+    proFit: 'Best if you want the complete launch plus hands-on marketing and customer acquisition setup.',
+    proFeature1: 'Everything in BUSINESS',
+    proFeature2: 'Local market and service-area research',
+    proFeature3: 'Google Maps, Google Ads and Local Services Ads guidance',
+    proFeature4: 'Lead tracking, review strategy and customer communication',
+    proFeature5: '30 days of advertising optimization and marketing support',
+    proCta: 'Start with Pro',
+    promoDeadlineStrong: 'Launch offer ends October 31, 2026.',
+    promoDeadlineText: 'Start your project by the deadline to receive the promotional price.',
+    monthlyEyebrow: 'Optional ongoing support',
+    monthlyTitle: 'Want us to stay involved after launch?',
+    monthlyText: 'A monthly subscription is not required. If you want continued help, you can bring us business-side tasks and problems as they come up. We can help handle or coordinate many common issues involving advertising, CRM, scheduling, customer communication, hiring, workflows and day-to-day operations.',
+    monthlyExtra: 'Additional or high-volume tasks may require separate pricing depending on the work involved.',
+    basicSupport: 'Basic Support',
+    basicSupportDesc: 'Questions, website, Google Business Profile, CRM and operational guidance.',
+    extendedSupport: 'Extended Support',
+    extendedSupportDesc: 'Adds advertising management, lead analysis, booking improvement, hiring and growth support.',
+    firstThreeMonths: 'first 3 months',
+    chooseBasic: 'Choose Basic',
+    chooseExtended: 'Choose Extended',
+    customTitle: 'Already have an LLC, website or some systems in place?',
+    customText: 'We can review what you already have and tailor the work around what you actually need.',
+    talkToUs: 'Talk to us',
+    pricingDisclaimer: 'Package scope may vary based on your current setup. Government fees, insurance, advertising budgets, paid software and third-party services are separate. Specific leads, bookings, approvals or income cannot be guaranteed.',
+    interestLabel: 'What are you interested in?',
+    interestNotSure: 'Not sure yet',
+    interestBusiness: 'BUSINESS — Launch Package',
+    interestPro: 'PRO — Launch + Customer Acquisition',
+    interestBasic: 'Basic Monthly Support',
+    interestExtended: 'Extended Monthly Support',
     courseEyebrow: 'Real help, not more homework',
     courseTitle: 'Not Another Business Course',
     courseText1: 'You can find business information everywhere online. The hard part is knowing what actually matters, what to do first and how everything connects.',
@@ -151,6 +201,56 @@ const translations = {
     step2Text: 'Определим, что нужно создать и настроить в первую очередь.',
     step3Title: 'Построим это вместе',
     step3Text: 'Поможем настроить системы и поддержим вас во время запуска.',
+    promoBarStrong: 'Октябрьское предложение',
+    promoBarText: '— BUSINESS $1,290 · PRO $1,990 · до 31 октября',
+    promoBarCta: 'Смотреть планы',
+    plansEyebrow: 'Выберите нужный уровень поддержки',
+    plansTitle: 'Начните свой бизнес вместе с нами',
+    plansIntro: 'Два понятных варианта запуска. Оба адаптируются под вашу текущую ситуацию и то, что у вас уже есть.',
+    businessPlanTitle: 'Настройка и запуск бизнеса',
+    businessSave: 'Экономия $400',
+    businessFit: 'Подходит, если вам нужна базовая система бизнеса, готовая к работе.',
+    octoberLaunchPrice: 'Октябрьская цена запуска',
+    regularPrice: 'Обычная цена',
+    businessFeature1: 'Помощь с регистрацией, лицензиями и страховкой',
+    businessFeature2: 'Профессиональный сайт + Google Business Profile + Yelp',
+    businessFeature3: 'Бизнес-телефон, email и настройка Housecall Pro / CRM',
+    businessFeature4: 'Расписание, сметы, счета и процессы работы с клиентами',
+    businessFeature5: 'Практическое обучение и 30 дней поддержки запуска',
+    businessCta: 'Начать с BUSINESS',
+    proTag: 'Лучше для привлечения клиентов',
+    proPlanTitle: 'Запуск бизнеса и привлечение клиентов',
+    proSave: 'Экономия $1,000',
+    proFit: 'Подходит, если вам нужен полный запуск плюс активная настройка маркетинга и привлечения клиентов.',
+    proFeature1: 'Все, что входит в BUSINESS',
+    proFeature2: 'Анализ локального рынка и зоны обслуживания',
+    proFeature3: 'Google Maps, Google Ads и помощь с Local Services Ads',
+    proFeature4: 'Учет заявок, стратегия отзывов и работа с обращениями',
+    proFeature5: '30 дней оптимизации рекламы и маркетинговой поддержки',
+    proCta: 'Начать с PRO',
+    promoDeadlineStrong: 'Предложение действует до 31 октября 2026 года.',
+    promoDeadlineText: 'Начните проект до этой даты, чтобы получить акционную цену.',
+    monthlyEyebrow: 'Дополнительная постоянная поддержка',
+    monthlyTitle: 'Хотите, чтобы мы продолжали помогать после запуска?',
+    monthlyText: 'Ежемесячная подписка не обязательна. Если вам нужна постоянная помощь, вы можете приносить нам бизнес-задачи и проблемы по мере их появления. Мы можем помочь решить или скоординировать многие типичные вопросы: реклама, CRM, расписание, общение с клиентами, найм, рабочие процессы и ежедневные операции.',
+    monthlyExtra: 'Дополнительные или объемные задачи могут оплачиваться отдельно в зависимости от объема работы.',
+    basicSupport: 'Базовая поддержка',
+    basicSupportDesc: 'Вопросы по бизнесу, сайту, Google Business Profile, CRM и ежедневным процессам.',
+    extendedSupport: 'Расширенная поддержка',
+    extendedSupportDesc: 'Дополнительно: управление рекламой, анализ заявок, улучшение бронирований, найм и развитие бизнеса.',
+    firstThreeMonths: 'первые 3 месяца',
+    chooseBasic: 'Выбрать Basic',
+    chooseExtended: 'Выбрать Extended',
+    customTitle: 'Уже есть LLC, сайт или часть систем?',
+    customText: 'Мы можем оценить то, что у вас уже есть, и настроить пакет только под то, что действительно нужно.',
+    talkToUs: 'Связаться с нами',
+    pricingDisclaimer: 'Объем пакета может зависеть от вашей текущей ситуации. Государственные сборы, страховка, рекламный бюджет, платные программы и сторонние сервисы оплачиваются отдельно. Конкретное количество заявок, бронирований, одобрения или доход не гарантируются.',
+    interestLabel: 'Что вас интересует?',
+    interestNotSure: 'Пока не уверен',
+    interestBusiness: 'BUSINESS — пакет запуска',
+    interestPro: 'PRO — запуск + привлечение клиентов',
+    interestBasic: 'Базовая ежемесячная поддержка',
+    interestExtended: 'Расширенная ежемесячная поддержка',
     courseEyebrow: 'Реальная помощь вместо домашнего задания',
     courseTitle: 'Не очередной бизнес-курс',
     courseText1: 'Информацию о бизнесе можно найти где угодно. Сложнее понять, что действительно важно, с чего начинать и как все связать в одну рабочую систему.',
@@ -253,3 +353,52 @@ if (params.get('submitted') === '1' && message) {
 }
 
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+const offerEndsAt = new Date('2026-11-01T00:00:00-07:00');
+const offerIsActive = new Date() < offerEndsAt;
+
+if (!offerIsActive) {
+  document.querySelectorAll('.promo-only').forEach((element) => {
+    element.hidden = true;
+  });
+  document.querySelectorAll('.regular-price-after').forEach((element) => {
+    element.hidden = false;
+  });
+}
+
+const interestSelect = document.querySelector('#interest');
+
+document.querySelectorAll('.plan-cta').forEach((link) => {
+  link.addEventListener('click', () => {
+    const plan = link.dataset.plan;
+    if (interestSelect && plan) interestSelect.value = plan;
+
+    if (typeof gtag === 'function' && plan) {
+      gtag('event', 'select_plan', {
+        plan_name: plan,
+        promotion_active: offerIsActive
+      });
+    }
+  });
+});
+
+document.querySelectorAll('a[href*="t.me/"]').forEach((link) => {
+  link.addEventListener('click', () => {
+    if (typeof gtag === 'function') {
+      gtag('event', 'telegram_click', {
+        link_location: link.closest('section')?.id || 'hero'
+      });
+    }
+  });
+});
+
+const launchForm = document.querySelector('#launch-form');
+if (launchForm) {
+  launchForm.addEventListener('submit', () => {
+    if (typeof gtag === 'function') {
+      gtag('event', 'launch_form_submit', {
+        plan_interest: interestSelect?.value || 'Not sure'
+      });
+    }
+  });
+}
