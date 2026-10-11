@@ -18,6 +18,12 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <div class="promo-bar promo-only" id="promo-bar">
+      <div class="promo-bar-inner">
+        <span><strong data-i18n="promoBarStrong">October Launch Offer</strong> <span data-i18n="promoBarText">— BUSINESS $1,290 · PRO $1,990 · Ends Oct 31</span></span>
+        <a href="#plans" data-i18n="promoBarCta">See plans</a>
+      </div>
+    </div>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="OwnerPathFuture home">
         <img class="brand-logo" src="assets/ownerpathfuture-logo.png" alt="OwnerPathFuture">
@@ -96,6 +102,121 @@
         </div>
       </section>
 
+
+      <section class="plans section" id="plans">
+        <div class="section-heading centered">
+          <p class="eyebrow" data-i18n="plansEyebrow">Choose the level of support you need</p>
+          <h2 data-i18n="plansTitle">Start Your Business With Us</h2>
+          <p data-i18n="plansIntro">Two clear launch options. Both are built around your current situation and what you already have.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card">
+            <div class="plan-top">
+              <div>
+                <p class="plan-label">BUSINESS</p>
+                <h3 data-i18n="businessPlanTitle">Business Setup & Launch</h3>
+              </div>
+              <span class="save-badge promo-only" data-i18n="businessSave">Save $400</span>
+            </div>
+            <p class="plan-fit" data-i18n="businessFit">Best if you need the business foundation set up and ready to operate.</p>
+
+            <div class="price-block promo-only">
+              <span class="old-price">$1,690</span>
+              <strong>$1,290</strong>
+              <small data-i18n="octoberLaunchPrice">October launch price</small>
+            </div>
+            <div class="price-block regular-price-after" hidden>
+              <strong>$1,690</strong>
+              <small data-i18n="regularPrice">Regular price</small>
+            </div>
+
+            <ul class="plan-features">
+              <li data-i18n="businessFeature1">Business registration, licensing & insurance guidance</li>
+              <li data-i18n="businessFeature2">Professional website + Google Business Profile + Yelp</li>
+              <li data-i18n="businessFeature3">Business phone, email and Housecall Pro / CRM setup</li>
+              <li data-i18n="businessFeature4">Scheduling, estimates, invoices and customer workflows</li>
+              <li data-i18n="businessFeature5">Practical training and 30 days of launch support</li>
+            </ul>
+            <a class="button button-secondary plan-cta" href="#launch-plan" data-plan="BUSINESS" data-i18n="businessCta">Start with Business</a>
+          </article>
+
+          <article class="pricing-card featured">
+            <div class="featured-tag" data-i18n="proTag">Best for customer acquisition</div>
+            <div class="plan-top">
+              <div>
+                <p class="plan-label">PRO</p>
+                <h3 data-i18n="proPlanTitle">Business Launch & Customer Acquisition</h3>
+              </div>
+              <span class="save-badge promo-only" data-i18n="proSave">Save $1,000</span>
+            </div>
+            <p class="plan-fit" data-i18n="proFit">Best if you want the complete launch plus hands-on marketing and customer acquisition setup.</p>
+
+            <div class="price-block promo-only">
+              <span class="old-price">$2,990</span>
+              <strong>$1,990</strong>
+              <small data-i18n="octoberLaunchPrice">October launch price</small>
+            </div>
+            <div class="price-block regular-price-after" hidden>
+              <strong>$2,990</strong>
+              <small data-i18n="regularPrice">Regular price</small>
+            </div>
+
+            <ul class="plan-features">
+              <li data-i18n="proFeature1">Everything in BUSINESS</li>
+              <li data-i18n="proFeature2">Local market and service-area research</li>
+              <li data-i18n="proFeature3">Google Maps, Google Ads and Local Services Ads guidance</li>
+              <li data-i18n="proFeature4">Lead tracking, review strategy and customer communication</li>
+              <li data-i18n="proFeature5">30 days of advertising optimization and marketing support</li>
+            </ul>
+            <a class="button button-primary plan-cta" href="#launch-plan" data-plan="PRO" data-i18n="proCta">Start with Pro</a>
+          </article>
+        </div>
+
+        <p class="promo-deadline promo-only"><strong data-i18n="promoDeadlineStrong">Launch offer ends October 31, 2026.</strong> <span data-i18n="promoDeadlineText">Start your project by the deadline to receive the promotional price.</span></p>
+
+        <div class="support-pricing">
+          <div class="support-pricing-copy">
+            <p class="eyebrow" data-i18n="monthlyEyebrow">Optional ongoing support</p>
+            <h3 data-i18n="monthlyTitle">Want us to stay involved after launch?</h3>
+            <p data-i18n="monthlyText">A monthly subscription is not required. If you want continued help, you can bring us business-side tasks and problems as they come up. We can help handle or coordinate many common issues involving advertising, CRM, scheduling, customer communication, hiring, workflows and day-to-day operations.</p>
+            <p class="small-note" data-i18n="monthlyExtra">Additional or high-volume tasks may require separate pricing depending on the work involved.</p>
+          </div>
+
+          <div class="support-options">
+            <article class="support-option">
+              <div>
+                <span class="support-name" data-i18n="basicSupport">Basic Support</span>
+                <span class="support-desc" data-i18n="basicSupportDesc">Questions, website, Google Business Profile, CRM and operational guidance.</span>
+              </div>
+              <div class="support-price promo-only"><span class="old-price">$249/mo</span><strong>$199/mo</strong><small data-i18n="firstThreeMonths">first 3 months</small></div>
+              <div class="support-price regular-price-after" hidden><strong>$249/mo</strong></div>
+              <a class="text-link plan-cta" href="#launch-plan" data-plan="Basic Support" data-i18n="chooseBasic">Choose Basic</a>
+            </article>
+
+            <article class="support-option">
+              <div>
+                <span class="support-name" data-i18n="extendedSupport">Extended Support</span>
+                <span class="support-desc" data-i18n="extendedSupportDesc">Adds advertising management, lead analysis, booking improvement, hiring and growth support.</span>
+              </div>
+              <div class="support-price promo-only"><span class="old-price">$649/mo</span><strong>$499/mo</strong><small data-i18n="firstThreeMonths">first 3 months</small></div>
+              <div class="support-price regular-price-after" hidden><strong>$649/mo</strong></div>
+              <a class="text-link plan-cta" href="#launch-plan" data-plan="Extended Support" data-i18n="chooseExtended">Choose Extended</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="custom-plan-note">
+          <div>
+            <strong data-i18n="customTitle">Already have an LLC, website or some systems in place?</strong>
+            <p data-i18n="customText">We can review what you already have and tailor the work around what you actually need.</p>
+          </div>
+          <a class="button button-secondary plan-cta" href="#launch-plan" data-plan="Not sure / Custom" data-i18n="talkToUs">Talk to us</a>
+        </div>
+
+        <p class="pricing-disclaimer" data-i18n="pricingDisclaimer">Package scope may vary based on your current setup. Government fees, insurance, advertising budgets, paid software and third-party services are separate. Specific leads, bookings, approvals or income cannot be guaranteed.</p>
+      </section>
+
       <section class="course section">
         <div class="course-accent" aria-hidden="true">“</div>
         <div><p class="eyebrow" data-i18n="courseEyebrow">Real help, not more homework</p><h2 data-i18n="courseTitle">Not Another Business Course</h2></div>
@@ -129,6 +250,7 @@
           <div class="field"><label for="name" data-i18n="nameLabel">Name</label><input id="name" name="name" type="text" autocomplete="name" required placeholder="Your name" data-i18n-placeholder="namePlaceholder"></div>
           <div class="field"><label for="contact" data-i18n="contactLabel">Phone or Email</label><input id="contact" name="contact" type="text" required placeholder="How can we reach you?" data-i18n-placeholder="contactPlaceholder"></div>
           <div class="form-row"><div class="field"><label for="location" data-i18n="locationLabel">City / State</label><input id="location" name="location" type="text" autocomplete="address-level2" required placeholder="City, State" data-i18n-placeholder="locationPlaceholder"></div><div class="field"><label for="experience" data-i18n="experienceLabel">Years of Experience</label><input id="experience" name="experience" type="number" min="0" max="70" required placeholder="e.g. 5" data-i18n-placeholder="experiencePlaceholder"></div></div>
+          <div class="field"><label for="interest" data-i18n="interestLabel">What are you interested in?</label><select id="interest" name="interest" required><option value="" selected data-i18n="interestNotSure">Not sure yet</option><option value="BUSINESS" data-i18n="interestBusiness">BUSINESS — Launch Package</option><option value="PRO" data-i18n="interestPro">PRO — Launch + Customer Acquisition</option><option value="Basic Support" data-i18n="interestBasic">Basic Monthly Support</option><option value="Extended Support" data-i18n="interestExtended">Extended Monthly Support</option></select></div>
           <div class="field"><label for="situation" data-i18n="situationLabel">Current Situation</label><select id="situation" name="situation" required><option value="" selected disabled data-i18n="selectOne">Select one</option><option value="Working for a company" data-i18n="situationCompany">Working for a company</option><option value="Doing side jobs" data-i18n="situationSideJobs">Doing side jobs</option><option value="Recently started" data-i18n="situationStarted">Recently started</option><option value="Still exploring" data-i18n="situationExploring">Still exploring</option></select></div>
           <button class="button button-primary form-button" type="submit" data-i18n="launchPlanButton">Start Your Business</button>
           <p class="form-note" data-i18n="formNote">Your submission will be emailed to OwnerPathFuture.</p>
